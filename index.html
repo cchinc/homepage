@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>楼下网----中国最大的网上社区</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width">
+    <script src="js/jquery-1.11.2.min.js"></script>
+    <script src="js/unslider.js"></script>
+    <style type="text/css">
+        #l-map {
+            height: 500px;
+            width: 100%
+        }
+
+        #r-result {
+            width: 100%;
+        }
+    </style>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=MhoQPSvju783BaS3E8u6CixP"></script>
+</head>
+<body>
+<div class="ue-bar">
+    <div class="ue-bar-wrap">
+        <div class="ue-bar-logo">
+            <a href="#">
+                <img src="img/logo1.jpg" width="100px" alt="骑士队" title="LBJ">
+            </a>
+
+        </div>
+        <div class="ue-bar-nav">
+            <ul>
+                <li class="active"><a href="#"><em>首页</em></a> </li>
+                <li><a href="#"><em>小区</em></a> </li>
+                <li><a href="#"><em>超市</em></a> </li>
+                <li><a href="#"><em>水果</em></a> </li>
+                <li><a href="#"><em>餐饮</em></a> </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner" id="course-example-generic">
+    <ul>
+        <li style="background-image: url('img/sunset.jpg');">
+            <div class="inner">
+                <h1>The jQuery slider that just slides.</h1>
+
+                <p>No fancy effects or unnecessary markup, and it’s less than 3kb.</p>
+
+                <a class="btn" href="#download">Download</a>
+            </div>
+        </li>
+
+        <li style="background-image: url('img/wood.jpg');">
+            <div class="inner">
+                <h1>Fluid, flexible, fantastically minimal.</h1>
+
+                <p>Use any HTML in your slides, extend with CSS. You have full control.</p>
+
+                <a class="btn" href="#download">Download</a>
+            </div>
+        </li>
+
+        <li style="background-image: url('img/subway.jpg');">
+            <div class="inner">
+                <h1>Open-source.</h1>
+
+                <p>Everything to do with Unslider is hosted on GitHub.</p>
+
+                <a class="btn" href="//github.com/idiot/unslider">Contribute</a>
+            </div>
+        </li>
+
+        <li style="background-image: url('img/shop.jpg');">
+            <div class="inner">
+                <h1>Uh, that’s about it.</h1>
+
+                <p>I just wanted to show you another slide.</p>
+
+                <a class="btn" href="#download">Download</a>
+            </div>
+        </li>
+    </ul>
+
+</div>
+<div class="features">
+    <ul class="wrap">
+        <li class="browser">
+            <b>Cross-browser happy</b>
+            <p>Unslider’s been tested in all the latest browsers, and it falls back magnificently for the not-so-latest ones.</p>
+        </li>
+
+        <li class="keyboard">
+            <b>Keyboard support</b>
+            <p>If you want to, you can add keyboard arrow support. Try it: hit left and right arrow keys.</p>
+        </li>
+
+        <li class="height">
+            <b>Adjusts for height</b>
+            <p>Not all slides are created equal, and Unslider knows it. It’ll stylishly transition heights with no extra code.</p>
+        </li>
+
+        <li class="responsive">
+            <b>Yep, it’s responsive</b>
+            <p>You’ll be hard pressed to find a site that’s not responsive these days. Unslider’s got your back.</p>
+        </li>
+    </ul>
+</div>
+<div class="pagetwo" id="pagetwo">
+    <div class="pagetwo-text">
+        <h1 class="pagetwo-text-h1">
+            选择你所在的小区<img src="img/2-1.jpg">
+        </h1>
+    </div>
+    <div class="row">
+
+        <div class="col-md-8">
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-1.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-3.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-2.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-1.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-3.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-2.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-1.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-2.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+            <div class="pagetwo-courses col-md-4">
+                <a href="#">
+                    <img src="img/2-3.jpg" style="width: 100%">
+                    <div class="classicon">
+                        <h3>认真选择哦</h3>
+                        <h2><strong>进入小区选择商店</strong></h2>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="pagetwo-courses col-md-4">
+            <div class="map hide-sm">
+                <div id="map" class="map-canvas leaflet-container leaflet-retina leaflet-fade-anim" tabindex="0"
+                     style="position: relative;">
+
+                    <div id="l-map"></div>
+                    <!--<div id="r-result"></div>-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="pagetwobtn">
+        <a id="pagetwo-easy" href="#" class="btn btn-success btn-lg">如果你想足不出户就能购买小区周围的商品请点这里</a>
+    </div>
+</div>
+<script>
+    $(function() {
+        $('.banner').unslider();
+    });
+    $('.banner').unslider({
+        speed: 500,               //  The speed to animate each slide (in milliseconds)
+        delay: 3000,              //  The delay between slide animations (in milliseconds)
+        complete: function() {},  //  A function that gets called after every slide animation
+        keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+        dots: true,               //  Display dot navigation
+        fluid: false              //  Support responsive design. May break non-responsive designs
+    });
+    var slidey = $('.banner').unslider(),
+            data = slidey.data('unslider');
+
+    //  Start Unslider
+    data.start();
+
+    //  Pause Unslider
+    data.stop();
+
+    //  Move to a slide index, with optional callback
+    data.move(2, function() {});
+    //  data.move(0);
+
+    //  Manually enable keyboard shortcuts
+    data.keys();
+
+    //  Move to the next slide (or the first slide if there isn't one)
+    data.next();
+
+    //  Move to the previous slide (or the last slide if there isn't one)
+    data.prev();
+
+    //  Append the navigation dots manually
+    data.dots();
+</script>
+<script>
+    var unslider = $('.banner').unslider();
+
+    $('.unslider-arrow').click(function() {
+        var fn = this.className.split(' ')[1];
+
+        //  Either do unslider.data('unslider').next() or .prev() depending on the className
+        unslider.data('unslider')[fn]();
+    });
+</script>
+</body>
+</html>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map("l-map");
+    var point = new BMap.Point(116.331398, 39.897445);
+    var mapType1 = new BMap.MapTypeControl({mapTypes: [BMAP_NORMAL_MAP, BMAP_HYBRID_MAP]});
+    var mapType2 = new BMap.MapTypeControl({anchor: BMAP_ANCHOR_TOP_LEFT});
+
+    var overView = new BMap.OverviewMapControl();
+    var overViewOpen = new BMap.OverviewMapControl({isOpen: true, anchor: BMAP_ANCHOR_BOTTOM_RIGHT});
+    map.addControl(mapType1);          //2D图，卫星图
+    map.addControl(mapType2);          //左上角，默认地图控件
+    map.setCurrentCity("北京");        //由于有3D图，需要设置城市哦
+    map.addControl(overView);          //添加默认缩略地图控件
+    map.addControl(overViewOpen);
+
+    var top_left_control = new BMap.ScaleControl({anchor: BMAP_ANCHOR_TOP_LEFT});// 左上角，添加比例尺
+    var top_left_navigation = new BMap.NavigationControl();  //左上角，添加默认缩放平移控件
+    var top_right_navigation = new BMap.NavigationControl({
+        anchor: BMAP_ANCHOR_TOP_RIGHT,
+        type: BMAP_NAVIGATION_CONTROL_SMALL
+    }); //右上角，仅包含平移和缩放按钮
+    /*缩放控件type有四种类型:
+     BMAP_NAVIGATION_CONTROL_SMALL：仅包含平移和缩放按钮；BMAP_NAVIGATION_CONTROL_PAN:仅包含平移按钮；BMAP_NAVIGATION_CONTROL_ZOOM：仅包含缩放按钮*/
+
+    //添加控件和比例尺
+    map.addControl(top_left_control);
+    map.addControl(top_left_navigation);
+    map.addControl(top_right_navigation);
+
+
+    map.enableScrollWheelZoom();
+    map.centerAndZoom(point, 12);
+    // 创建地址解析器实例
+    var myGeo = new BMap.Geocoder();
+    // 将地址解析结果显示在地图上,并调整地图视野
+    myGeo.getPoint("北京市领秀慧谷", function (point) {
+        if (point) {
+            map.centerAndZoom(point, 16);
+            map.addOverlay(new BMap.Marker(point));
+            var marker = new BMap.Marker(point);  // 创建标注
+            map.addOverlay(marker);               // 将标注添加到地图中
+            marker.setAnimation(BMAP_ANIMATION_BOUNCE); //跳动的动画
+            var myKeys = ["超市", "水果店", "水站"];
+            var local = new BMap.LocalSearch(map, {
+                renderOptions: {map: map, panel: "r-result"},
+                pageCapacity: 6
+            });
+            local.searchInBounds(myKeys, map.getBounds());
+        } else {
+            alert("您选择地址没有解析到结果!");
+        }
+    }, "北京市");
+</script>
